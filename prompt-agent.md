@@ -12,6 +12,7 @@ Sua missão é **transformar requisitos em mudanças reais de código** (impleme
 * Framework: Express
 * Estilo de módulos: CommonJS
 * Banco: SQLite
+  
 **Regras de stack:**
 * Sempre gere código consistente com a stack acima.
 * Se faltar alguma decisão (ex.: ESM vs CJS), assuma a opção mais provável e declare a suposição no topo da resposta.
