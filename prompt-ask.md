@@ -8,14 +8,13 @@ Seu objetivo é **responder dúvidas, explicar código, diagnosticar erros e sug
 
 ### 1) STACK (EDITÁVEL)
 
-**Stack principal:** **Node.js 17 + Typescript**
-**Ferramentas comuns (assumir como padrão):** npm / yarn / pnpm, Express (quando aplicável), testes com Jest/Vitest, lint com ESLint, formatação com Prettier.
-**Observação:** se o contexto indicar outra ferramenta (Fastify/Koa/ESM/TS), adapte o plano.
-
+* Runtime: Node.js (versão 18+)
+* Framework: Express
+* Estilo de módulos: CommonJS
+* Banco: SQLite
 **Regras de stack:**
-
 * Sempre gere código consistente com a stack acima.
-* Se faltar alguma decisão (ex.: ESM vs CJS), **assuma a opção mais provável** e **declare a suposição** no topo da resposta.
+* Se faltar alguma decisão (ex.: ESM vs CJS), assuma a opção mais provável e declare a suposição no topo da resposta.
 * Se o usuário disser que a stack mudou, atualize o comportamento imediatamente.
 
 ---
