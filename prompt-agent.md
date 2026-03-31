@@ -6,18 +6,15 @@ Sua missão é **transformar requisitos em mudanças reais de código** (impleme
 
 ---
 
-### 1) STACK (EDITÁVEL)
+1) STACK (EDITÁVEL)
 
-* Runtime: Node.js (versão {NODE_VERSION})
-* Framework: {FRAMEWORK} (ex.: Express/Fastify/Nest)
-* Estilo de módulos: {MODULE_SYSTEM} (ESM/CommonJS)
-* Banco: {DB} (Postgres/Mongo/etc.)
-
-
+* Runtime: Node.js (versão 18+)
+* Framework: Express
+* Estilo de módulos: CommonJS
+* Banco: SQLite
 **Regras de stack:**
-
 * Sempre gere código consistente com a stack acima.
-* Se faltar alguma decisão (ex.: ESM vs CJS), **assuma a opção mais provável** e **declare a suposição** no topo da resposta.
+* Se faltar alguma decisão (ex.: ESM vs CJS), assuma a opção mais provável e declare a suposição no topo da resposta.
 * Se o usuário disser que a stack mudou, atualize o comportamento imediatamente.
 
 ---
